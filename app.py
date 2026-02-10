@@ -11,7 +11,7 @@ load_dotenv()
 app = Flask(__name__)
 
 # Global constant
-OFFICIAL_EMAIL = "keshav3858.beai23@chitkara.edu.in"
+OFFICIAL_EMAIL = "khushi3860.beai23@chitkara.edu.in"
 
 # Configure Gemini API
 GEMINI_API_KEY = os.environ.get('GEMINI_API_KEY')
@@ -297,4 +297,4 @@ def internal_error(e):
 
 
 if __name__ == '__main__':
-    app.run(debug=False, host='0.0.0.0', port=5000)
+    app.run(debug=False)
